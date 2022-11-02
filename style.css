@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: #302f5c;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#canvas {
+    background-color: #4d4c92;
+    border: 5px solid #3b3a72;
+    color: #db3f24;
+    display: grid;
+    margin-top: 5%;
+    grid-template-rows: repeat(20, 5%);
+    grid-template-columns: repeat(50, 2%);
+}
+#score-board {
+    background-color: #3b3a72;
+    border-right: 5px solid #3b3a72;
+    border-left: 5px solid #3b3a72;
+    border-bottom: 5px solid #3b3a72;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
